@@ -1,2 +1,2 @@
-# upang-lms
-Library Management System | Project
+# LMS
+ upang-lms
