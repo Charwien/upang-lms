@@ -15,7 +15,6 @@
         android:text="A library system for UPANG"
         android:fontFamily="@font/roboto_light"
         android:textSize="15sp"
-        android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
