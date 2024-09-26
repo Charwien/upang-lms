@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Joshua\\.gradle\\daemon\\8.7\\com.upang.lms.app-mergeDebugResources-38:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Joshua\\.gradle\\daemon\\8.7\\com.upang.lms.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.upang.lms.app-mergeDebugResources-38:/layout/activity_login_page.xml",
+        "source": "com.upang.lms.app-main-41:/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\.gradle\\daemon\\8.7\\com.upang.lms.app-mergeDebugResources-38:\\layout\\activity_register_page.xml",
+        "source": "C:\\Users\\Joshua\\.gradle\\daemon\\8.7\\com.upang.lms.app-main-41:\\layout\\activity_register_page.xml"
+    },
+    {
+        "merged": "com.upang.lms.app-mergeDebugResources-38:/layout/activity_home_page.xml",
+        "source": "com.upang.lms.app-main-41:/layout/activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\.gradle\\daemon\\8.7\\com.upang.lms.app-mergeDebugResources-38:\\layout\\activity_login_page.xml",
+        "source": "C:\\Users\\Joshua\\.gradle\\daemon\\8.7\\com.upang.lms.app-main-41:\\layout\\activity_login_page.xml"
+    }
+]

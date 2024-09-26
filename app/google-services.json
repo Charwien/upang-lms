@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "368562106902",
+    "project_id": "librarymanagementsystem-7825e",
+    "storage_bucket": "librarymanagementsystem-7825e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368562106902:android:e0de0af4ab665b0154bb37",
+        "android_client_info": {
+          "package_name": "com.upang.lms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_SxlskKHY9Fh_sF8lk-ND2BM9spw_DGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
