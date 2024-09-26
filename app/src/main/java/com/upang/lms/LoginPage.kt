@@ -13,6 +13,7 @@ import com.upang.lms.databinding.ActivityLoginPageBinding
 class LoginPage : AppCompatActivity() {
     private lateinit var binding:ActivityLoginPageBinding
     private lateinit var firebaseAuth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginPageBinding.inflate(layoutInflater)
