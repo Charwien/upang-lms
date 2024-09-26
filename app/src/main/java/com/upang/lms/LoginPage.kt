@@ -11,7 +11,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.upang.lms.databinding.ActivityLoginPageBinding
 
 class LoginPage : AppCompatActivity() {
-    private lateinit var binding:ActivityLoginPageBinding
+    private lateinit var binding: ActivityLoginPageBinding
     private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,37 +19,41 @@ class LoginPage : AppCompatActivity() {
         binding = ActivityLoginPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.textView.setOnClickListener {
-        val intent = Intent (this, RegisterPage::class.java)
-            startActivity(intent)
 
+        firebaseAuth = FirebaseAuth.getInstance()
+        binding.textView.setOnClickListener {
+            val intent = Intent(this, RegisterPage::class.java)
+            startActivity(intent)
         }
-        binding.btnLogin.setOnClickListener {
-            val email = binding.EtEmail.text.toString()
-            val pass =  binding.EtPass.text.toString()
+
+        binding.button.setOnClickListener {
+            val email = binding.emailEt.text.toString()
+            val pass = binding.passET.text.toString()
 
             if (email.isNotEmpty() && pass.isNotEmpty()) {
-                firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
-                    if (it.isSuccessful)  {
-                        val intent = Intent(this, HomePage::class.java)
-                        startActivity(intent)
 
+                firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
+                    if (it.isSuccessful) {
+                        val intent = Intent(this, MainActivity::class.java)
+                        startActivity(intent)
                     } else {
-                        Toast.makeText(this , it.exception.toString(), Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+
                     }
                 }
-
             } else {
-                Toast.makeText(this , "Empty Fields is not Allowed", Toast.LENGTH_SHORT).show()
-            }
+                Toast.makeText(this, "Empty Fields Are not Allowed !!", Toast.LENGTH_SHORT).show()
 
+            }
         }
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_login_page)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        if(firebaseAuth.currentUser != null){
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 }
