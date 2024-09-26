@@ -16,7 +16,6 @@ id btnClick
 id btnClick2
 id btnLogin
 id btnSignUp
-id button2
 id imageView
 id imageView2
 id main
