@@ -3256,11 +3256,11 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btn
 id btnClick
 id btnClick2
 id btnLogin
-id button
+id btnSignUp
+id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3335,8 +3335,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editTextTextPassword2
-id editTextTextPassword3
 id edit_query
 id edit_text_id
 id elastic

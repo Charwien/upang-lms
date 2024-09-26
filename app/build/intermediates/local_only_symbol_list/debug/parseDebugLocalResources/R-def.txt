@@ -12,13 +12,11 @@ id EtPass
 id EtPassword
 id EtPassword2
 id TvLogin
-id btn
 id btnClick
 id btnClick2
 id btnLogin
-id button
-id editTextTextPassword2
-id editTextTextPassword3
+id btnSignUp
+id button2
 id imageView
 id imageView2
 id main

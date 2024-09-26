@@ -35,7 +35,10 @@ public final class ActivityRegisterPageBinding implements ViewBinding {
   public final TextView TvLogin;
 
   @NonNull
-  public final Button btn;
+  public final Button btnSignUp;
+
+  @NonNull
+  public final Button button2;
 
   @NonNull
   public final ImageView imageView;
@@ -48,14 +51,15 @@ public final class ActivityRegisterPageBinding implements ViewBinding {
 
   private ActivityRegisterPageBinding(@NonNull ConstraintLayout rootView, @NonNull EditText EtEmail,
       @NonNull EditText EtPassword, @NonNull EditText EtPassword2, @NonNull TextView TvLogin,
-      @NonNull Button btn, @NonNull ImageView imageView, @NonNull ConstraintLayout main,
-      @NonNull TextView textView2) {
+      @NonNull Button btnSignUp, @NonNull Button button2, @NonNull ImageView imageView,
+      @NonNull ConstraintLayout main, @NonNull TextView textView2) {
     this.rootView = rootView;
     this.EtEmail = EtEmail;
     this.EtPassword = EtPassword;
     this.EtPassword2 = EtPassword2;
     this.TvLogin = TvLogin;
-    this.btn = btn;
+    this.btnSignUp = btnSignUp;
+    this.button2 = button2;
     this.imageView = imageView;
     this.main = main;
     this.textView2 = textView2;
@@ -112,9 +116,15 @@ public final class ActivityRegisterPageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btn;
-      Button btn = ViewBindings.findChildViewById(rootView, id);
-      if (btn == null) {
+      id = R.id.btnSignUp;
+      Button btnSignUp = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignUp == null) {
+        break missingId;
+      }
+
+      id = R.id.button2;
+      Button button2 = ViewBindings.findChildViewById(rootView, id);
+      if (button2 == null) {
         break missingId;
       }
 
@@ -133,7 +143,7 @@ public final class ActivityRegisterPageBinding implements ViewBinding {
       }
 
       return new ActivityRegisterPageBinding((ConstraintLayout) rootView, EtEmail, EtPassword,
-          EtPassword2, TvLogin, btn, imageView, main, textView2);
+          EtPassword2, TvLogin, btnSignUp, button2, imageView, main, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

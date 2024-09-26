@@ -32,10 +32,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.LMS" >
         <activity
-            android:name="com.upang.lms.Home_page"
+            android:name="com.upang.lms.HomePage"
             android:exported="true" />
         <activity
-            android:name="com.upang.lms.Register_page"
+            android:name="com.upang.lms.RegisterPage"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +44,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.upang.lms.Login_page"
+            android:name="com.upang.lms.LoginPage"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

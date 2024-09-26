@@ -1,0 +1,5 @@
+com.upang.lms.test.app-core-1.6.1-0 C:\Users\Joshua\.gradle\caches\transforms-4\0530eaf24e139abf82c9b7ddc5152192\transformed\core-1.6.1\res
+com.upang.lms.test.app-androidTest-1 C:\Users\Joshua\Documents\GitHub\upang-lms\app\build\generated\res\resValues\androidTest\debug
+com.upang.lms.test.app-mergeDebugAndroidTestResources-2 C:\Users\Joshua\Documents\GitHub\upang-lms\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.upang.lms.test.app-mergeDebugAndroidTestResources-3 C:\Users\Joshua\Documents\GitHub\upang-lms\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.upang.lms.test.app-debugAndroidTest-4 C:\Users\Joshua\Documents\GitHub\upang-lms\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

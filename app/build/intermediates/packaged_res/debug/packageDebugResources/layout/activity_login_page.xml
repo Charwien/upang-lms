@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".Login_page">
+    tools:context=".LoginPage">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -18,21 +18,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+
     <TextView
         android:id="@+id/tvLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="468dp"
+        android:layout_width="211dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="460dp"
         android:text="Log in to your account"
-        android:textSize="15dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/EtEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="238dp"
+        android:layout_height="58dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="email address"
@@ -44,8 +45,8 @@
 
     <EditText
         android:id="@+id/EtPass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="237dp"
+        android:layout_height="57dp"
         android:layout_marginBottom="24dp"
         android:ems="10"
         android:hint="password"
@@ -57,8 +58,8 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="20dp"
         android:text="Log In"
         app:layout_constraintBottom_toTopOf="@+id/textView"
@@ -67,13 +68,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="212dp"
+        android:layout_width="232dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="200dp"
         android:text="Don't have an account, Sign up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent" />
 
 
