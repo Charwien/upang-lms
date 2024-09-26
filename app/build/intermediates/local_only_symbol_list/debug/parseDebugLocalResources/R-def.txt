@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+font roboto_bold
+font roboto_light
+id btnClick
+id btnClick2
+id main
+id textPart1
+id textPart2
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.LMS
+style Theme.LMS
+xml backup_rules
+xml data_extraction_rules
