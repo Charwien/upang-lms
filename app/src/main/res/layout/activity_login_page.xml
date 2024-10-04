@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+    <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -20,6 +20,17 @@
         tools:layout_editor_absoluteY="-70dp">
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="427dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hudbaroverlay" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -49,60 +60,70 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/emailtext"
-        android:layout_width="50dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="28dp"
-        android:text="Email"
-        android:textColor="@color/black"
-        android:textSize="16sp"
+        android:id="@+id/textView"
+        android:layout_width="220dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="388dp"
+        android:fontFamily="@font/anek_malayalam"
+        android:text="Or create a new account"
+        android:textColor="#5757FF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.24"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView" />
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/EtEmail"
-        android:layout_width="238dp"
-        android:layout_height="58dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="294dp"
+        android:layout_height="61dp"
         android:ems="10"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/open_sans"
+        android:hint="Email Address"
         android:inputType="textEmailAddress"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textColorLink="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/passwordhover"
+        app:layout_constraintBottom_toTopOf="@id/EtPass"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailtext" />
-
-    <TextView
-        android:id="@+id/passwordhover"
-        android:layout_width="90dp"
-        android:layout_height="20dp"
-        android:text="Password"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.271"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/EtEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/EtPass"
-        android:layout_width="237dp"
-        android:layout_height="57dp"
+        android:layout_width="294dp"
+        android:layout_height="61dp"
         android:layout_marginBottom="90dp"
+        android:fontFamily="@font/open_sans"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textColorLink="#000000"
         app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordhover"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/EtEmail" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="172dp"
+        android:fontFamily="@font/anek_malayalam"
+        android:text="Forgot your password?"
+        android:textColor="#5757FF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -119,20 +140,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="220dp"
-        android:layout_height="27dp"
-        android:layout_marginBottom="388dp"
-        android:fontFamily="@font/anek_malayalam"
-        android:text="Or create a new account"
-        android:textColor="#5757FF"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
