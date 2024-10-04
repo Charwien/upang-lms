@@ -4,7 +4,9 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable iconvisible
 drawable logo
+drawable oval
 font roboto_bold
 font roboto_light
 id EtEmail
@@ -17,13 +19,13 @@ id btnClick2
 id btnLogin
 id btnSignUp
 id imageView
+id imageView1
 id imageView2
 id main
-id textPart1
-id textPart2
 id textView
 id textView2
 id textView3
+id textView4
 id tvLabel
 layout activity_home_page
 layout activity_login_page

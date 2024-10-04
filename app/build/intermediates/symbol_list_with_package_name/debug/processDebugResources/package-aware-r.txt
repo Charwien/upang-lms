@@ -3067,6 +3067,7 @@ drawable ic_other_sign_in
 drawable ic_passkey
 drawable ic_password
 drawable ic_search_black_24
+drawable iconvisible
 drawable indeterminate_static
 drawable logo
 drawable m3_avd_hide_password
@@ -3141,6 +3142,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable oval
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3386,6 +3388,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView1
 id imageView2
 id immediateStop
 id included
@@ -3613,8 +3616,6 @@ id tag_window_insets_animation_callback
 id text
 id text2
 id textEnd
-id textPart1
-id textPart2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3622,6 +3623,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

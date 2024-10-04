@@ -1,9 +1,9 @@
-#Thu Sep 26 16:33:43 PST 2024
-base.0=C\:\\Users\\Joshua\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Joshua\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Joshua\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.3=C\:\\Users\\Joshua\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.4=C\:\\Users\\Joshua\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Fri Oct 04 16:24:03 PST 2024
+base.0=C\:\\Users\\basic\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\basic\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\basic\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=C\:\\Users\\basic\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.4=C\:\\Users\\basic\\Documents\\GitHub\\upang-lms\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=12/classes.dex

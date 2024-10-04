@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,23 +28,23 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnClick2;
 
   @NonNull
+  public final ImageView imageView1;
+
+  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
-  public final TextView textPart1;
-
-  @NonNull
-  public final TextView textPart2;
+  public final TextView textView4;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnClick,
-      @NonNull Button btnClick2, @NonNull ConstraintLayout main, @NonNull TextView textPart1,
-      @NonNull TextView textPart2) {
+      @NonNull Button btnClick2, @NonNull ImageView imageView1, @NonNull ConstraintLayout main,
+      @NonNull TextView textView4) {
     this.rootView = rootView;
     this.btnClick = btnClick;
     this.btnClick2 = btnClick2;
+    this.imageView1 = imageView1;
     this.main = main;
-    this.textPart1 = textPart1;
-    this.textPart2 = textPart2;
+    this.textView4 = textView4;
   }
 
   @Override
@@ -85,22 +86,22 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView1;
+      ImageView imageView1 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView1 == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      id = R.id.textPart1;
-      TextView textPart1 = ViewBindings.findChildViewById(rootView, id);
-      if (textPart1 == null) {
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
         break missingId;
       }
 
-      id = R.id.textPart2;
-      TextView textPart2 = ViewBindings.findChildViewById(rootView, id);
-      if (textPart2 == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnClick, btnClick2, main,
-          textPart1, textPart2);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnClick, btnClick2, imageView1,
+          main, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
