@@ -2,6 +2,9 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/anek_malayalam</item>
+        <item>@font/assistant</item>
         <item>@font/castoro</item>
+        <item>@font/roboto_serif_bold</item>
+        <item>@font/roboto_serif_semibold</item>
     </array>
 </resources>
