@@ -7,4 +7,8 @@
     <string name="forgot_your_password">Forgot your password?</string>
     <string name="log_in">Log In</string>
     <string name="log_in_to_your_account">Log in to your account</string>
+    <string name="Continue">Continue</string>
+    <string name="library_management_system_lms_is_designed_to_help_you_find_the_book_much_easier">Library Management System (LMS) is designed to help you find the book much easier.</string>
+    <string name="to_lms">to LMS!</string>
+    <string name="welcome">Welcome</string>
 </resources>
