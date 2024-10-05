@@ -11,4 +11,6 @@
     <string name="library_management_system_lms_is_designed_to_help_you_find_the_book_much_easier">Library Management System (LMS) is designed to help you find the book much easier.</string>
     <string name="to_lms">to LMS!</string>
     <string name="welcome">Welcome</string>
+    <string name="Search">Search</string>
+    <string name="Recommended">Recommended</string>
 </resources>
